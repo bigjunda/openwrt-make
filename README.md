@@ -1,1 +1,1 @@
-# x86
+openwrt make
