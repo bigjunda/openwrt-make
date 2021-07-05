@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: r4a
+name: k1s
 
 on:
   repository_dispatch:
