@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/bigjunda/openwrt-gl-ax1800
   REPO_BRANCH: caopin
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: ax18
+  CONFIG_FILE: ax18-bak
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
