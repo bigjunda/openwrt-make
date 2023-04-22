@@ -17,4 +17,4 @@
 echo 'src-git passwall1 https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 echo 'src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci' >> feeds.conf.default
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2'>> feeds.conf.default
-git clone https://github.com/wiwizcom/WiFiPortal.git && cd WiFiPortal &&  cp -r wifidog-wiwiz ../openwrt/package/
+git clone https://github.com/wiwizcom/WiFiPortal.git && cd WiFiPortal &&  cp -r wifidog-wiwiz /home/runner/work/openwrt-make/openwrt-make/package/
