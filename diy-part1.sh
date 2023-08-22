@@ -16,4 +16,3 @@
 # Add a feed source
 echo 'src-git passwall1 https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 echo 'src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci' >> feeds.conf.default
-echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2'>> feeds.conf.default
