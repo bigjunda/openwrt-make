@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
+  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ax18
