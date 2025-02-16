@@ -1,4 +1,4 @@
-name: ax6s
+name: 小米ax6s
 
 on:
   workflow_dispatch:
