@@ -6,7 +6,7 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/bigjunda/immortalwrt.git
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: master
   CONFIG_FILE: ax6s
   DIY_SCRIPT: diy-part1.sh
