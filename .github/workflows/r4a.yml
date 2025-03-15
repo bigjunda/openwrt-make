@@ -1,4 +1,4 @@
-name: xiaomiR3G
+name: xiaomi r4a
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
 env:
   REPO_URL: https://github.com/bigjunda/lede
   REPO_BRANCH: master
-  CONFIG_FILE: r3g
+  CONFIG_FILE: r4a
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
