@@ -1,4 +1,4 @@
-name: Nokia EA0326GMP
+name: xiaomiR3G
 
 on:
   workflow_dispatch:
@@ -8,13 +8,12 @@ on:
 env:
   REPO_URL: https://github.com/bigjunda/lede
   REPO_BRANCH: master
-  CONFIG_FILE: EA0326GMP
-  DIY_SCRIPT: diy-script1.sh
+  CONFIG_FILE: r3g
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: mediatek-filogic
+  FIRMWARE_TAG: mediatek-7621
   TZ: Asia/Shanghai
 
 jobs:
