@@ -6,8 +6,8 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/bigjunda/ipq6000.git
-  REPO_BRANCH: kernel-6.12
+  REPO_URL: https://github.com/LiBwrt/openwrt-6.x
+  REPO_BRANCH: k6.12-nss
   CONFIG_FILE: ax18
   #DIY_SCRIPT: diy-script1.sh
   CLASH_KERNEL: amd64
