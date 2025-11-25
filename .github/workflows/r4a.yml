@@ -74,7 +74,7 @@ jobs:
           # =========================================================
           # 任务 1: 修改 DTS 文件中的 "firmware" 分区大小 (0xe80000 -> 0x3fb0000)
           # =========================================================
-          DTS_FILE="/home/runner/work/openwrt-make/openwrt-make/target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi"
+          DTS_FILE="/home/runner/work/openwrt-make/lede/target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi"
           
           if [ -f "$DTS_FILE" ]; then
               echo "✅ 正在处理文件 1/2: $DTS_FILE"
@@ -98,7 +98,7 @@ jobs:
           # =========================================================
           # 任务 2: 修改 mt7621.mk 中的 IMAGE_SIZE (14848k -> 40960k)
           # =========================================================
-          MK_FILE="/home/runner/work/openwrt-make/openwrt-make/target/linux/ramips/image/mt7621.mk"
+          MK_FILE="/home/runner/work/openwrt-make/lede/target/linux/ramips/image/mt7621.mk"
 
           if [ -f "$MK_FILE" ]; then
               echo "✅ 正在处理文件 2/2: $MK_FILE"
