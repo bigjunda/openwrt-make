@@ -1,4 +1,4 @@
-name: x86
+name: r4a
 
 on:
   workflow_dispatch:
