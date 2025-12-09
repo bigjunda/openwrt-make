@@ -9,7 +9,7 @@ env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x
   REPO_BRANCH: k6.12-nss
   CONFIG_FILE: ax18
-  DIY_SCRIPT: diy-script1.sh
+  #DIY_SCRIPT: diy-script1.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
